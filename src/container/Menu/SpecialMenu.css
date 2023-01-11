@@ -58,7 +58,7 @@
   }
 
   .app__specialMenu-menu_img img {
-    height: 920px;
+    max-height: 920px;
   }
 }
 
@@ -77,6 +77,10 @@
 @media screen and (max-width: 650px) {
   .app__specialMenu-menu_img {
     width: 100%;
+  }
+
+  .app__specialMenu-menu_img img {
+    height: auto;
   }
 
   .app__specialMenu-menu_heading {
